@@ -10,45 +10,55 @@
 <body>
     <div class="wrapper">
         <header class="header">
-            <div class="name">Nathan Miller</div>
-            <div class="links">
-                <a href="index.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
+            <div class="yourName">
+                <h2 id="whiteHeading">Nate Miller</h2>
             </div>
+            <nav class="links">
+                <a href="index.html" class="indexLink text linkText">About</a>
+                <a href="portfolio.html" class="portfolioLink text linkText">Portfolio</a>
+                <a href="contact.html" class="contactLink text linkText">Contact</a>
+            </nav>
         </header>
+        <div class="clearBoth"></div>
         <div class="main">
-            <div class="contactForm">
+            <div class="mainLarge">
                 <h2>Contact</h2>
-                <hr>
-                <form>
+                <div class="line"></div>
+                <form class="text">
+                    <br>
                     Name:
                     <br>
-                    <input type="text" name="name">
-                    <br> Email:
+                    <input type="text" name="name" class="nameInput"> 
                     <br>
-                    <input type="text" name="email">
-                    <br> Message:
+                    Email:
                     <br>
-                    <input type="text" name="message">
+                    <input type="text" name="email" class="emailInput">
+                    <br> 
                     <br>
-                    <button type="Submit"></button>
+                    Message:
+                    <br>
+                    <input type="text" name="message" class="messageInput">
+                    <br>
+                    <br>
+                    <button type="Submit" class="submitButton text">Submit</button>
+                    <br>
                     <br>
                 </form>
             </div>
             <div class="connect">
                 <h3>Connect with Me</h3>
-                <hr>
-                <a href="https://github.com/nathanmiller9"><img src="assets/images/github_image2.png" alt="GitHub Logo">></a>
-                <a href="https://www.linkedin.com/in/nathan-miller-04411710/"><img src="assets/images/linkedin.png" alt="LinkedIn Logo"></a>
-                <a href="http://stackoverflow.com/users/edit/7348071"><img src="assets/images/stackoverflow_image.png" alt="StackOverflow Logo"></a>
+                <div class="line"></div>
+                <br>
+                <a href="https://github.com/nathanmiller9"><img src="assets/images/github_image2.png" alt="GitHub Logo" class="logo"></a>
+                <a href="https://www.linkedin.com/in/nathan-miller-04411710/"><img src="assets/images/linkedin.png" alt="LinkedIn Logo" class="logo"></a>
+                <a href="http://stackoverflow.com/users/edit/7348071"><img src="assets/images/stackoverflow_image.png" alt="StackOverflow Logo" class="logo"></a>
             </div>
+            <div class="clearBoth"></div>
+            <div class="greenBorder"></div>
+            <footer class="footer">
+                <p class="footerCopy">&copy; Copyright 2017 Nathan Miller</p>
+            </footer>
         </div>
-        <div class="push">
-        </div>
-        <footer class="footer">
-            <p>&copy; Copyright 2016 Nathan Miller</p>
-        </footer>
     </div>
 </body>
 
