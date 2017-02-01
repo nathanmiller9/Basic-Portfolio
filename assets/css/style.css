@@ -1,8 +1,166 @@
-* {
+/* {
 	border: solid 1px black;
+	margin: 0;
+}*/
+
+
+/*html, body {
+	height: 100%;
 }
 
-.header {
-	background-color: red;
-	height: 100px;
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -4em;
+}
+
+.footer, .push {
+	height: 4em;
+}*/
+
+/*.yourNameBox {
+	width: 66.6666%;
+	float: left;
+}*/
+
+.yourName {
+	background-color: #4aaaa5;
+	font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+	height: 60px;
+	overflow: auto;
+	width: 18%;
+	color: white;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 12.28%;
+	margin-right: 32%;
+	float: left;
+	border: solid 2px #cccccc;
+}
+
+#whiteHeading {
+	color: white;
+}
+
+/*.linksBox {
+	width: 33%;
+	float: left;
+}*/
+
+.links {
+	height: 60px;
+	width: 25%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: ;
+	float: left;
+}
+
+.clearBoth {
+	clear: both;
+}
+
+.indexLink {
+	margin-right: 6%;
+
+}
+
+.portfolioLink {
+	margin-right: 6%;
+}
+
+.contactLink {
+}
+
+.text {
+	font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+	color: #777777;
+}
+
+.linkText {
+	font-size: .75em;
+}
+
+.main {
+	margin-left: 2.08%;
+	margin-right: 2.08%;
+	background-image: url("../images/concrete_seamless.png");
+	border: solid 2px #dddddd;
+	overflow: auto;
+
+}
+
+h2, h3 {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.aboutMe {
+	width: 47%;
+	float: left;
+	padding-left: 2%;
+	padding-right: 2%;
+	margin-left: 10.2%;
+	margin-right: 6%;
+	margin-top: 2.08%;
+	margin-bottom: 2.08%;
+	align-items: center;
+	height: 90%;
+	background-color: white;
+}
+
+.line {
+	border: solid 1px #dddddd;
+}
+
+.bio {
+
+}
+
+p { 
+color: #777777;
+}
+
+.connect {
+	float: left;
+	width: 21%;
+	margin-right: 7%;
+	margin-top: 2.08%;
+	background-color: white;
+	text-align: center;
+	padding-bottom: 2%;
+}
+
+#portfolio {
+	width: 20%;
+	float: left;
+	margin: 3% 1% 0 1%;
+}
+
+.logo {
+	width: 25%;
+	margin-right: 3%;
+}
+
+.greenBorder {
+	height: 5px;
+	background-color: #4aaaa5;
+}
+
+.footer {
+	justify-content: center;
+	align-items: center;
+	background-color: #666666;
+	overflow: auto;
+}
+
+.footerCopy {
+	padding: 10px 0 10px 0;
+	text-align: center;
+	color: white;
+	font-size: .5em;
 }
