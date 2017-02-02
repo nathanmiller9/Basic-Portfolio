@@ -141,11 +141,29 @@ color: #777777;
 }
 
 #portfolio {
-	width: 20%;
+	width: 90px;
 	float: left;
-	margin: 3% 1% 0 1%;
 }
 
+.spaceBetween {
+	display: flex;
+	justify-content: space-between;
+}
+
+.pImage {
+	float: left;
+	width: 220px;
+	height: 140px;
+	margin-bottom: 10px;
+}
+
+.pImageLeft {
+
+}
+
+.pImageRight {
+
+}
 .logo {
 	width: 25%;
 	margin-right: 3%;
