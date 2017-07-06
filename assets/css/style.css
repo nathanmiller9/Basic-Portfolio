@@ -1,30 +1,3 @@
-/* {
-	border: solid 1px black;
-	margin: 0;
-}*/
-
-
-/*html, body {
-	height: 100%;
-}
-
-.wrapper {
-	min-height: 100%;
-	height: auto !important;
-	height: 100%;
-	margin: 0 auto -4em;
-}
-
-.footer, .push {
-	height: 4em;
-}*/
-
-
-/*.yourNameBox {
-	width: 66.6666%;
-	float: left;
-}*/
-
 .yourName {
     background-color: #4aaaa5;
     font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
@@ -43,13 +16,8 @@
 
 #whiteHeading {
     color: white;
+    font-family: 'Alice', serif;
 }
-
-
-/*.linksBox {
-	width: 33%;
-	float: left;
-}*/
 
 .links {
     height: 63px;
@@ -206,33 +174,6 @@ p {
     margin-right: 3%;
 }
 
-
-/*.gitLogo {
-	width: 25%;
-	margin-right: 3%;
-	background: url('assets/images/Octocat.png') bottom;
-}
-
-.gitLogo:hover {
-	background-position: 0 0;
-}*/
-
-
-/*.linkedLogo {
-	width: 25%;
-	margin-right: 3%;
-}
-
-.stackLogo {
-	width: 25%;
-	margin-right: 3%;
-}
-
-.gitLogo:hover {
-	background-image: url('Octocat.png');
-	z-index: 1;
-}*/
-
 .greenBorder {
     height: 5px;
     background-color: #4aaaa5;
@@ -285,4 +226,8 @@ p {
 .submitButton:active {
     color: black;
     background-color: #dddddd;
+}
+
+#interestsText {
+	font-family: 'Alice', serif;
 }
