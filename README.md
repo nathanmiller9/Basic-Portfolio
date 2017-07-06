@@ -3,8 +3,6 @@
 ## Live Link 
  - https://nathanmiller9.github.io/Basic-Portfolio/
 
-## Description on how to use the app
-
 ## Requirements
 #### Build a professional portfolio site using HTML/CSS
 
